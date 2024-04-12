@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo das caixas */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+        li a {
+            text-decoration: none; /* Removendo sublinhado dos links */
+            color: #333; /* Cor dos links */
+        }
+        li:hover {
+            background-color: #1db1c8; /* Cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contato</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Mim</a></li>
+                    <li><a href="formacao.html">Formação Educacional</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                </ul>
+            </nav>
+        </header>
+        <p style="text-align: center;"> Gostou do conteúdo? Deixe seu contato aqui:</p> 
+        <section class="main-content">
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
